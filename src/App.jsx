@@ -1,5 +1,10 @@
 import React from "react";
+import { AppLayout } from "./pages/AppLayout";
 
 export default function App() {
-  return <div>Tasks Manager App</div>;
+  return (
+    <div>
+      <AppLayout />
+    </div>
+  );
 }
